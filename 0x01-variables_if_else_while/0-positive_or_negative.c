@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
-
 /**
  * main - main block
  * Describtion: get a random number and print variable
