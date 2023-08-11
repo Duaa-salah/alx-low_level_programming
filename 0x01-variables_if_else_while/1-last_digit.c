@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
+/**
  * main - print a value according last digit
  *
  * Description: Print statements based on the last digit of the random number.
