@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* 
+/*
  * main - main block
- * Description: see the last digit of n is 5, or zero , or less than 6 and not zero
+ * Description: see the last digit of n 
+ * is 5, or zero , or less than 6 and not zero
  * Return: 0
 */
 int main(void)
@@ -19,7 +20,7 @@ int main(void)
 		printf("Last digit of %d is %d and is greater than 5\n",
 		       n, r);
 	else if (r == 0)
-		printf("last digit of %d is %d and and is 0\n", n, r);
+		printf("last digit of %d is %d and is 0\n", n, r);
 	else
 		printf("Last digit of %d is %d and is less than 6 and not 0\n",
 		       n, r);
