@@ -4,7 +4,7 @@
 /*
  * main - Entry point
  * Description: Print statements based on the last digit of the random number.
- * Return: 0
+ * Return: Always 0 (success)
 */
 int main(void)
 {
