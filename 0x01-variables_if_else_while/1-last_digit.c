@@ -3,7 +3,9 @@
 #include <stdio.h>
 /*
  * main - print a value according last digit
- * 
+ *
+ * Description: Print statements based on the last digit of the random number.
+ *
  * Return: Always 0 (Success)
 */
 int main(void)
