@@ -9,6 +9,7 @@ int main(void)
 	int d1 = 0;
 	int d2;
 	int d3;
+
 	while (d1 <= 9)
 	{
 		d2 = 0;
