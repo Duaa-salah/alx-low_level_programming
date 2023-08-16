@@ -4,7 +4,7 @@
 /**
  * print_sign  - check if the given character is +/-
  *
- *
+ *@n: Number to be tested
  * Return: 0 if uppercase, or 1 if lowercase
 */
 int print_sign(int n)
