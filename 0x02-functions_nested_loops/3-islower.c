@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * _islower - returns 1 if the alphabet is lower case and zero if not
- * 
+ * _islower - tests whether a character is a lowercase letter from the English alphabet.
+ *
  * return: 0 if uppercase, or 1 if lowercase
  * @c: charachter
 */
