@@ -5,7 +5,7 @@
  * _islower - returns 1 if the alphabet is lower case and zero if not
  * return: 1
  * return: 0
- * @c charachter
+ * @c: charachter
 */
 int _islower(int c)
 {
