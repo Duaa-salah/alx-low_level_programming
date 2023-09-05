@@ -11,14 +11,14 @@
 char *create_array(unsigned int size, char c)
 {
 	unsigned int i;
-	char* arr;
+	char *arr;
 
 	if (size == 0)
 	{
 		return (NULL);
 	}
-	
-	arr = (char*)malloc(size * sizeof(char));
+
+	arr = (char *)malloc(size * sizeof(char));
 	{
 		if (arr == NULL)
 		{
@@ -27,8 +27,8 @@ char *create_array(unsigned int size, char c)
 	}
 	for (i = 0; i < size;)
 	{
-	       	arr[i] = c; /** initialize each element with \'c\' */
+		arr[i] = c; /** initialize each element with \'c\' */
 		i++;
 	}
-	return arr;
+	return (arr);
 }
