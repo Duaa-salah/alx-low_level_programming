@@ -7,21 +7,21 @@
  */
 char *_strdup(char *str)
 {
-	  char *get;
+		char *get;
+
+		if (str == NULL)
+		{
+		return (NULL);
+		}
 	  
-	  if (str == NULL)
-	  {
-	  	  return (NULL);
-	  }
+		get = (char *)malloc(strlen(str) + 1);
 
-	  get = (char *)malloc(strlen(str) + 1);
+		if (get == NULL)
+		{
+		return (NULL);
+		}
 
-	  if (get == NULL)
-	  {
-	  	  return (NULL);
-	  }
-	  
-	  strcpy(get, str);
+		strcpy(get, str);
 
-	  return (get);
+		return (get);
 }
