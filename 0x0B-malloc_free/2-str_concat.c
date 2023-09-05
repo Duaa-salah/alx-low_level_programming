@@ -30,7 +30,14 @@ char *str_concat(char *s1, char *s2)
 	{
 		l_s2++;
 	}
-	
+
+	         appen = (char *)malloc(l_s1 + l_s2 + 1);
+
+        if (appen == NULL)
+        {
+                return (NULL);
+        }
+
 	for (f = 0; f < l_s1; f++)
 	{
 		appen[f] = s1[f];
@@ -38,13 +45,6 @@ char *str_concat(char *s1, char *s2)
 	for (h = 0; h < l_s2; h++)
 	{
 		appen[f + h] = s2[h];
-	}
-
-		appen = (char *)malloc(l_s1 + l_s2 + 1);
-
-	if (appen == NULL)
-	{
-		return (NULL);
 	}
 
 	appen[f + h] = '\0';
