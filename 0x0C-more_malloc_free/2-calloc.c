@@ -5,8 +5,10 @@
  * *_calloc - allocates memory for an array
  * @nmemb: number of elements in the array
  * @size: size of each element
- * *char_f - Initialize the allocated memory to zero
+ * *char_f - Initialize the allocated memory
+ * to zero
  * *x - Allocate memory using malloc
+ * @a: Cast to char pointer for byte-wise
  * @tsize: Calculate the total size in bytes
  * Return: pointer to allocated memory
  */
@@ -28,7 +30,6 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	{
 		return (NULL);
 	}
-
 	char_f = (char *)x;
 
 	for (a = 0; a < tsize; a++)
